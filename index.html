@@ -6,6 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<style>
+    body{
+        background-color: black;
+        color: white;
+        font-size: 20px;
+    }
+</style>
 <script>
     function pulaLinha() {
 
@@ -19,12 +26,12 @@ document.write(frase);
 pulaLinha();
 }
 var numeroPensado = Math.round(Math.random() * 10);
-var chute = parseInt(prompt("digite seu chute de 0 a 10!"));
+var chute = parseInt(prompt("Digite seu chute de 0 a 10!"));
 if(chute == numeroPensado) {
     mostra("Você acertou!");
 
 } else {
-    mostra("Você errou, o número pensado foi " + numeroPensado);
+    mostra("Você errou, o número pensado foi " + numeroPensado.);
 }
 </script>
 <body>
